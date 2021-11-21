@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HintControllerDirective } from './directives/hint.directive';
 import { PrimitiveTextFieldComponent } from './primitive-text-field/primitive-text-field.component';
 import { InputTextFieldComponent } from './input-text-field/input-text-field.component';
+import { TextfieldCleanerDirective } from './directives/cleaner.directive';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { InputTextFieldComponent } from './input-text-field/input-text-field.com
     PrimitiveTextFieldComponent,
     HintControllerDirective,
     InputTextFieldComponent,
+    TextfieldCleanerDirective,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
