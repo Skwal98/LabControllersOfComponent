@@ -1,1 +1,11 @@
-Worked!
+<app-input-text-field
+  [hintContent]="hContent"
+  [hintDirection]="dir"
+></app-input-text-field>
+
+<ng-template #hContent>Hint content</ng-template>
+
+<button (click)="gn()">Generate new direction</button>
+<br />
+<br />
+Actual: {{ dir }}
